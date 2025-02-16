@@ -11,4 +11,16 @@ public class UnitTest1
 
        Console.WriteLine(cube.Dump());
     }
+
+
+
+    [Fact]
+    public void TestingCylinderDumpToEnsureThatThereAreNOISsues()
+    {
+       Cylinder cylinder = new Cylinder(3,5);
+
+       
+
+       Console.WriteLine(cylinder.Dump());
+    }
 }
