@@ -10,10 +10,11 @@ private List<shape3D> shapes;
   }
   public void Create(shape3D shape){
     shapes.Add(shape);
-  }
-  public shape3D Get(int index){
     
-  return shapes[index];
+  }
+  public string Get(int index){
+    
+  return shapes[index].Dump();
   }
 
   public void Delete(int index){
