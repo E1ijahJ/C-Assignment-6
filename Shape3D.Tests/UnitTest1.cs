@@ -23,4 +23,20 @@ public class UnitTest1
 
        Console.WriteLine(cylinder.Dump());
     }
+[Fact]
+    public void TestingShapeContainerToEnsureThatThereAreNOISsues()
+    {
+       ShapeContainer container = new ShapeContainer();
+       Sphere cube = new Sphere(4);
+
+       container.Create(cube);
+       Console.WriteLine("Sphere Created");
+       container.Get(0);
+       container.Delete(0);
+       
+
+
+    }
+
+    
 }
