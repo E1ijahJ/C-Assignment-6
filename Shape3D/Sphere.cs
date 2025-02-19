@@ -3,6 +3,9 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace Shape3D{
 
+  /// <summary>
+  /// this is the circle class that asks for the raidus and creates a cricle objeect that uses the raidus to get hte volumen and surface area of the the cirlce
+  /// </summary>
   public class Sphere : shape3D{
 
     public double Radius{get; set;}

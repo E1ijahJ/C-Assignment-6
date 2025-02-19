@@ -2,7 +2,10 @@ using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Shape3D{
-
+/// <summary>
+/// This is the the shape container class with 3 simple methods to add, retireve
+/// as well as delete a shape from the list
+/// </summary>
 public class ShapeContainer{
 private List<shape3D> shapes;
   public ShapeContainer(){

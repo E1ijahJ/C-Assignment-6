@@ -3,6 +3,9 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace Shape3D{
 
+/// <summary>
+/// This is the cylinder class a child of the shape3d class has valeus for radius and height and uses those values to calcualte surface are and vvolume 
+/// </summary>
   public class Cylinder: shape3D{
 
     public double Radius{get; set;}
