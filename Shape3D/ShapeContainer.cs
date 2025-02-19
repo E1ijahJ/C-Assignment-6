@@ -12,14 +12,14 @@ private List<shape3D> shapes;
     shapes.Add(shape);
     
   }
-  public string Get(int index){
+  public shape3D Get(int index){
     
-  return shapes[index].Dump();
+  return shapes[index];
   }
 
-  public void Delete(int index){
+  public bool Delete(int index){
     shapes.RemoveAt(index);
-
+    return true;
   }
 }
 
